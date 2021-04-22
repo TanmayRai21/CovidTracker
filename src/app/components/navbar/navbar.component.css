@@ -1,0 +1,31 @@
+.header {
+  background: rgb(25, 87, 219);
+  padding: 10px;
+  margin-bottom: 0px;
+  font-size: 1.7rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  color: lavender;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li a {
+  background: whitesmoke;
+  color: blue;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 5px 20px;
+}
+
+ul li :hover {
+  background: rgb(5, 160, 221);
+  color: whitesmoke;
+  border: 2px solid white;
+}
+
+.options {
+  display: flex;
+}

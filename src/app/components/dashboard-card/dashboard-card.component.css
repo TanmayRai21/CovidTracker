@@ -1,0 +1,44 @@
+.label {
+  font-size: 2.3rem;
+}
+
+.value {
+  margin-top: 20px;
+  font-size: 2.9rem;
+  color: grey;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px 50px 10px 50px;
+  border-radius: 7px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .dashboard {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .card2 {
+    margin-top: 20px;
+  }
+
+  .label,
+  .value {
+    font-size: 1.5rem;
+  }
+}
+
+/* 1024 - ipad 
+    840 - android tab
+    768 - portrait ipad 
+    640 - tab  
+    375 */
