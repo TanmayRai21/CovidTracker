@@ -64,10 +64,8 @@ export class HomeComponent implements OnInit {
     this.globalData.forEach(cs => {
       let value: number;
       if (caseType == 'c') if (cs.confirmed > 500000) value = cs.confirmed;
-
       if (caseType == 'a') if (cs.active > 200000) value = cs.active;
       if (caseType == 'd') if (cs.deaths > 10000) value = cs.deaths;
-
       if (caseType == 'r') if (cs.recovered > 200000) value = cs.recovered;
 
       this.datatable.push([cs.country, value]);

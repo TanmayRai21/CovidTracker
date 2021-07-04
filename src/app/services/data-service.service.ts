@@ -27,7 +27,7 @@ export class DataServiceService {
           let cols = row.split(/,(?=\S)/);
           let con = cols[1];
           cols.splice(0, 4);
-          // console.log(con , cols);
+          // console.log(con, cols);
           mainData[con] = [];
           cols.forEach((value, index) => {
             let dw: DateWiseData = {
